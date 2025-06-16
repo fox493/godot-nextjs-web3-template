@@ -70,7 +70,6 @@ export function GodotGame({ walletAddress }: GodotGameProps) {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       cleanupPromise?.then((cleanupFn: any) => cleanupFn?.());
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isConnected, walletAddress, loadGodotGame]);
 
   return (
