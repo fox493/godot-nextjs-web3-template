@@ -1,0 +1,11 @@
+[application]
+
+config/name="Web3 Demo Game"
+config/description="A simple Godot game that displays wallet information from Web3"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
